@@ -1,0 +1,30 @@
+{
+  "name": "memory_grid_game",
+  "version": "1.0.0",
+  "description": "A game is made while I'm learning ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhluong96/Memory_Grid_Game_Clone.git"
+  },
+  "author": "Luong Nhat Minh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhluong96/Memory_Grid_Game_Clone/issues"
+  },
+  "homepage": "https://github.com/minhluong96/Memory_Grid_Game_Clone#readme",
+  "devDependencies": {
+    "jspm": "^0.16.53"
+  },
+  "jspm": {
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
