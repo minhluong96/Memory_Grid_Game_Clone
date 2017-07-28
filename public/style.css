@@ -1,0 +1,16 @@
+body {
+  text-align: center; }
+
+.cell {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 1px solid #aaa;
+  background: #f8f8f8;
+  margin-right: 5px; }
+  .cell.active {
+    background: skyblue; }
+  .cell.correct {
+    background: mediumseagreen; }
+  .cell.wrong {
+    background: red; }
