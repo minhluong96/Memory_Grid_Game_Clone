@@ -11,6 +11,6 @@ body {
   .cell.active {
     background: skyblue; }
   .cell.correct {
-    background: mediumseagreen; }
+    background: limegreen; }
   .cell.wrong {
     background: red; }
