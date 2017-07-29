@@ -4,8 +4,8 @@
   "description": "A game is made while I'm learning ReactJS",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass-chokidar public/ -o public/",
-    "watch-css": "npm run build-css && node-sass-chokidar public/ -o public/ --watch --recursive",
+    "build": "node-sass-chokidar public/ -o public/",
+    "watch": "npm run build && node-sass-chokidar public/ -o public/ --watch --recursive",
     "start": "serve --port 3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
